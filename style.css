@@ -1,0 +1,27 @@
+html, body {
+  height: 100%;
+  width: 100%;
+
+}
+
+.column:hover {
+  background-color: hsl(206, 70%, 96%);
+}
+
+.columns {
+  display: flex;
+  box-shadow: -15px 15px black;
+}
+
+.section {
+  padding: 0rem 2.5rem;
+}
+
+h1 {
+  font-weight: 100;
+  color: black;
+  font-size: 5rem;
+  text-align: center;
+  font-style: italic;
+  /*text-shadow: 5px 5px #174287;*/
+}

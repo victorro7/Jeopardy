@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Jeopardy</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.1/css/bulma.min.css">
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <!--Title-->
+  <div class="is-family-monospace" style="text-shadow: 5px 5px #174287;">
+    <h1>Jeopardy</h1>
+  </div>
+
+  <!--Display score-->
+  <div class="section is-centered">
+    <div class="block has-text-centered is-family-monospace is-size-4">
+      <h3><strong>Your Score: </strong><span id="score"></span></h3>
+    </div>
+  </div>
+
+  <!--Tiles-->
+  <container id="jeopardy">
+    <!-- 100 Section-->
+    <section class="section pt-6" id="btn100">
+      <div class="columns is-variable is-3" style="height: 150px;">
+        <button id="btn100_1" class="column has-background-info has-text-centered is-size-1 js-modal-trigger"
+          data-target="modal-js-example">
+          100
+        </button>
+        <button id="btn100_2" class="column has-background-info has-text-centered is-size-1 js-modal-trigger"
+          data-target="modal-js-example">
+          100
+        </button>
+        <button id="btn100_3" class="column has-background-info has-text-centered is-size-1 js-modal-trigger"
+          data-target="modal-js-example">
+          100
+        </button>
+        <button id="btn100_4" class="column has-background-info has-text-centered is-size-1 js-modal-trigger"
+          data-target="modal-js-example">
+          100
+        </button>
+        <button id="btn100_5" class="column has-background-info has-text-centered is-size-1 js-modal-trigger"
+          data-target="modal-js-example">
+          100
+        </button>
+      </div>
+    </section>
+
+    <!-- 200 Section-->
+    <section class="section" id="btn200">
+      <div class="columns is-variable is-3" style="height: 150px;">
+        <button id="btn200_1" class="column has-background-info has-text-centered is-size-1 js-modal-trigger"
+          data-target="modal-js-example">
+          200
+        </button>
+        <button id="btn200_2" class="column has-background-info has-text-centered is-size-1 js-modal-trigger"
+          data-target="modal-js-example">
+          200
+        </button>
+        <button id="btn200_3" class="column has-background-info has-text-centered is-size-1 js-modal-trigger"
+          data-target="modal-js-example">
+          200
+        </button>
+        <button id="btn200_4" class="column has-background-info has-text-centered is-size-1 js-modal-trigger"
+          data-target="modal-js-example">
+          200
+        </button>
+        <button id="btn200_5" class="column has-background-info has-text-centered is-size-1 js-modal-trigger"
+          data-target="modal-js-example">
+          200
+        </button>
+      </div>
+    </section>
+
+    <!-- 300 Section-->
+    <section class="section" id="btn300">
+      <div class="columns is-variable is-3" style="height: 150px;">
+        <button id="btn300_1" class="column has-background-info has-text-centered is-size-1 js-modal-trigger"
+          data-target="modal-js-example">
+          300
+        </button>
+        <button id="btn300_2" class="column has-background-info has-text-centered is-size-1 js-modal-trigger"
+          data-target="modal-js-example">
+          300
+        </button>
+        <button id="btn300_3" class="column has-background-info has-text-centered is-size-1 js-modal-trigger"
+          data-target="modal-js-example">
+          300
+        </button>
+        <button id="btn300_4" class="column has-background-info has-text-centered is-size-1 js-modal-trigger"
+          data-target="modal-js-example">
+          300
+        </button>
+        <button id="btn300_5" class="column has-background-info has-text-centered is-size-1 js-modal-trigger"
+          data-target="modal-js-example">
+          300
+        </button>
+      </div>
+    </section>
+
+    <!-- 400 Section-->
+    <section class="section" id="btn400">
+      <div class="columns is-variable is-3" style="height: 150px;">
+        <button id="btn400_1" class="column has-background-info has-text-centered is-size-1 js-modal-trigger"
+          data-target="modal-js-example">
+          400
+        </button>
+        <button id="btn400_2" class="column has-background-info has-text-centered is-size-1 js-modal-trigger"
+          data-target="modal-js-example">
+          400
+        </button>
+        <button id="btn400_3" class="column has-background-info has-text-centered is-size-1 js-modal-trigger"
+          data-target="modal-js-example">
+          400
+        </button>
+        <button id="btn400_4" class="column has-background-info has-text-centered is-size-1 js-modal-trigger"
+          data-target="modal-js-example">
+          400
+        </button>
+        <button id="btn400_5" class="column has-background-info has-text-centered is-size-1 js-modal-trigger"
+          data-target="modal-js-example">
+          400
+        </button>
+      </div>
+    </section>
+
+    <!-- 500 Section-->
+    <section class="section pb-6" id="btn500">
+      <div class="columns is-variable is-3" style="height: 150px;">
+        <button id="btn500_1" class="column has-background-info has-text-centered is-size-1 js-modal-trigger"
+          data-target="modal-js-example">
+          500
+        </button>
+        <button id="btn500_2" class="column has-background-info has-text-centered is-size-1 js-modal-trigger"
+          data-target="modal-js-example">
+          500
+        </button>
+        <button id="btn500_3" class="column has-background-info has-text-centered is-size-1 js-modal-trigger"
+          data-target="modal-js-example">
+          500
+        </button>
+        <button id="btn500_4" class="column has-background-info has-text-centered is-size-1 js-modal-trigger"
+          data-target="modal-js-example">
+          500
+        </button>
+        <button id="btn500_5" class="column has-background-info has-text-centered is-size-1 js-modal-trigger"
+          data-target="modal-js-example">
+          500
+        </button>
+      </div>
+    </section>
+
+    <!--Display Questions-->
+    <div id="modal-js-example" class="modal">
+      <div class="modal-background"></div>
+
+      <div class="modal-content">
+        <div class="box has-text-centered is-family-monospace is-size-5">
+          <h1>Question</h1>
+          <!-- Your content -->
+          <div id="question"> </div>
+          
+          <div class="pt-3">
+            <input class="input is-normal" type="text" id="userAnswer"/>
+          </div>
+          
+          <div class="pt-3">
+            <input class="button is-outlined" type="submit" value="submit" id="submit" />
+          </div>
+          
+        </div>
+      </div>
+
+      <button class="modal-close is-large" aria-label="close"></button>
+    </div>
+    <!--End Modal-->
+  </container>
+
+  <!--Footer-->
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        <strong>Jeopardy</strong> by <a href="https://www.linkedin.com/in/victor-osunji-bb030a232/">Victor Osunji</a>.
+      </p>
+    </div>
+  </footer>
+
+
+  <script src="./script.js" defer></script>
+</body>
+
+</html>
